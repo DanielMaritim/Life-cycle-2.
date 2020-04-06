@@ -14,4 +14,6 @@ componentDidUpdate() is called after componentDidMount() and can be useful to pe
 
 Note that the component ie <b> Loading </b> is unmounted when it is no longer shownn in the view.
 
-componentWillUnmount is used to clear the <i> setInterval </i>
+componentWillUnmount is used to clear the <i> setInterval </i>.
+
+The loading component is just used to make the user know that data is being fetched so as to be shown on the view
