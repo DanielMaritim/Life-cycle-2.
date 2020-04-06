@@ -11,3 +11,5 @@ It is called once in the component life cycle and it signals that the component 
 2.The componentDidUpdate () method.
 
 componentDidUpdate() is called after componentDidMount() and can be useful to perform some action when the state changes. componentDidUpdate() takes as its first two arguments the previous props and the previous state.It is invoked everytime the component updates
+
+Note that the component is unmounted when it is no longer shownn in the view.
