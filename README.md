@@ -15,6 +15,9 @@ componentDidMount() executes after the render() at first execution. After that i
 componentDidUpdate() is called after componentDidMount() ie when a component is updated and can be useful to perform some action when the state changes. componentDidUpdate() takes as its first two arguments the previous props and the previous state.It is invoked everytime the component updates.
 The update happen if new props have been provided by a parent component or an internal state has been changed.
 
+<b>componentDidUpdate</b> can be used in scenarios like.
+1.When you need to access underlying DOM nodes of React components.
+
 Note that the component ie <b> Loading </b> is unmounted when it is no longer shownn in the view.
 
 componentWillUnmount is used to clear the <i> setInterval </i>.
