@@ -20,3 +20,5 @@ Note that the component ie <b> Loading </b> is unmounted when it is no longer sh
 componentWillUnmount is used to clear the <i> setInterval </i>.
 
 The loading component is just used to make the user know that data is being fetched so as to be shown on the view
+
+The life cycle only apply to React class components
