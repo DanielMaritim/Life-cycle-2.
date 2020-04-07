@@ -16,7 +16,10 @@ componentDidUpdate() is called after componentDidMount() ie when a component is 
 The update happen if new props have been provided by a parent component or an internal state has been changed.
 
 <b>componentDidUpdate</b> can be used in scenarios like.
+<i>
 1.When you need to access underlying DOM nodes of React components.
+2.when you need to request data from a server or remote API due to changes in component’s props.
+  </i>
 
 Note that the component ie <b> Loading </b> is unmounted when it is no longer shownn in the view.
 
